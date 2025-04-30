@@ -21,7 +21,7 @@ pub fn run_tests() {
     table.delete_item("eight".to_string());
     //table.delete_item("six".to_string());
     table.print_list();
-    if let Some(val) = table.get_item("three".to_string()) {
+    if let Some(val) = table.get_item("threr".to_string()) {
         println!("three: {}", val);
     }
     if let Some(val) = table.get_item("four".to_string()) {
